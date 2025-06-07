@@ -1,10 +1,7 @@
-#define PH_SENSOR_PIN 34
+#define PH_SENSOR_PIN 33
 
 const float offset = 0.8;      // Diubah berdasarkan hasil offset
-
 const float calibration_value = 21.34 + offset;
-
-float readPH();
 
 void setup() {
   Serial.begin(115200);
